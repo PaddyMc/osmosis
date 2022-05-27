@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/osmosis-labs/osmosis/v8/app"
-	"github.com/osmosis-labs/osmosis/v8/osmoutils"
-	"github.com/osmosis-labs/osmosis/v8/x/lockup/client/cli"
-	lockuptestutil "github.com/osmosis-labs/osmosis/v8/x/lockup/client/testutil"
-	"github.com/osmosis-labs/osmosis/v8/x/lockup/types"
+	"github.com/PaddyMc/osmosis/v8/app"
+	"github.com/PaddyMc/osmosis/v8/osmoutils"
+	"github.com/PaddyMc/osmosis/v8/x/lockup/client/cli"
+	lockuptestutil "github.com/PaddyMc/osmosis/v8/x/lockup/client/testutil"
+	"github.com/PaddyMc/osmosis/v8/x/lockup/types"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/crypto/hd"

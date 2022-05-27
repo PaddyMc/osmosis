@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	"github.com/osmosis-labs/osmosis/v8/x/gamm/utils"
-	"github.com/osmosis-labs/osmosis/v8/x/incentives/types"
+	"github.com/PaddyMc/osmosis/v8/x/gamm/utils"
+	"github.com/PaddyMc/osmosis/v8/x/incentives/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

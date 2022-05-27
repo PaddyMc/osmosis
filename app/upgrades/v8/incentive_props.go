@@ -2,9 +2,9 @@ package v8
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/osmosis-labs/osmosis/v8/osmoutils"
-	poolincentiveskeeper "github.com/osmosis-labs/osmosis/v8/x/pool-incentives/keeper"
-	poolincentivestypes "github.com/osmosis-labs/osmosis/v8/x/pool-incentives/types"
+	"github.com/PaddyMc/osmosis/v8/osmoutils"
+	poolincentiveskeeper "github.com/PaddyMc/osmosis/v8/x/pool-incentives/keeper"
+	poolincentivestypes "github.com/PaddyMc/osmosis/v8/x/pool-incentives/types"
 )
 
 // This file implements logic for accelerated incentive proposals.
@@ -13,7 +13,7 @@ import (
 // executing the equivalent result of the "UpdatePoolIncentives" proposals, inside of this upgrade logic.
 func applyPoolIncentivesUpdate(ctx sdk.Context, poolincentiveskeeper *poolincentiveskeeper.Keeper, records []poolincentivestypes.DistrRecord) {
 	// Notice that the pool incentives update proposal code, just calls UpdateDistrRecords:
-	// https://github.com/osmosis-labs/osmosis/blob/v7.3.0/x/pool-incentives/keeper/gov.go#L13-L15
+	// https://github.com/PaddyMc/osmosisblob/v7.3.0/x/pool-incentives/keeper/gov.go#L13-L15
 	// And that p.Records is the field output by the gov queries.
 
 	// If error, undo state update, log, and proceed. We don't want to stop the entire upgrade due to

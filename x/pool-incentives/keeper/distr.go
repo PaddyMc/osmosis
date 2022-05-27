@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/osmosis-labs/osmosis/v8/x/pool-incentives/types"
+	"github.com/PaddyMc/osmosis/v8/x/pool-incentives/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

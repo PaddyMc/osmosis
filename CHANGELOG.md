@@ -41,9 +41,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-* [#1570](https://github.com/osmosis-labs/osmosis/pull/1570) upgrade sdk with app version fix for state-sync
-* [#1554](https://github.com/osmosis-labs/osmosis/pull/1554) local dev environment
-* [#1535](https://github.com/osmosis-labs/osmosis/pull/1535) upgrade wasmd to v0.27.0.rc3-osmo and ibc-go to v3
+* [#1570](https://github.com/PaddyMc/osmosispull/1570) upgrade sdk with app version fix for state-sync
+* [#1554](https://github.com/PaddyMc/osmosispull/1554) local dev environment
+* [#1535](https://github.com/PaddyMc/osmosispull/1535) upgrade wasmd to v0.27.0.rc3-osmo and ibc-go to v3
 * [#1435] `x/tokenfactory` create denom fee for spam resistance 
 * [#1429] solver for multi-asset CFMM
 * [#1253] Add lockup duration edit method
@@ -52,7 +52,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * [#1230] Stableswap CFMM equations
 * [#1541] Add arm64 support to Docker
 
-## [v8.0.0 - Emergency proposals upgrade](https://github.com/osmosis-labs/osmosis/releases/tag/v8.0.0)
+## [v8.0.0 - Emergency proposals upgrade](https://github.com/PaddyMc/osmosisreleases/tag/v8.0.0)
 
 This upgrade is a patch that must be hard forked in, as on-chain governance of Osmosis approved proposal [227](https://www.mintscan.io/osmosis/proposals/227) and proposal [228](https://www.mintscan.io/osmosis/proposals/228).
 
@@ -88,39 +88,39 @@ Every node should upgrade their software version to v8.0.0 before the upgrade bl
 
 ### Features
 
-* [#1378](https://github.com/osmosis-labs/osmosis/pull/1378) add .gitpod.yml
-* [#1262](https://github.com/osmosis-labs/osmosis/pull/1262) Add a `forceprune` command to the binaries, that prunes golevelDB data better.
-* [#1244](https://github.com/osmosis-labs/osmosis/pull/1244) Refactor `x/gamm`'s `ExitSwapExternAmountOut`.
-* [#1107](https://github.com/osmosis-labs/osmosis/pull/1107) Update to wasmvm v0.24.0, re-enabling building on M1 macs!
-* [#1292](https://github.com/osmosis-labs/osmosis/pull/1292) CLI account-locked-duration
+* [#1378](https://github.com/PaddyMc/osmosispull/1378) add .gitpod.yml
+* [#1262](https://github.com/PaddyMc/osmosispull/1262) Add a `forceprune` command to the binaries, that prunes golevelDB data better.
+* [#1244](https://github.com/PaddyMc/osmosispull/1244) Refactor `x/gamm`'s `ExitSwapExternAmountOut`.
+* [#1107](https://github.com/PaddyMc/osmosispull/1107) Update to wasmvm v0.24.0, re-enabling building on M1 macs!
+* [#1292](https://github.com/PaddyMc/osmosispull/1292) CLI account-locked-duration
 
 ### Minor improvements & Bug Fixes
 
-* [#1379](https://github.com/osmosis-labs/osmosis/pull/1379) Introduce `Upgrade` and `Fork` structs, to simplify upgrade logic.
-* [#1363](https://github.com/osmosis-labs/osmosis/pull/1363) Switch e2e test setup to create genesis and configs via Dockertest
-* [#1335](https://github.com/osmosis-labs/osmosis/pull/1335) Add utility for deriving total orderings from partial orderings.
-* [#1308](https://github.com/osmosis-labs/osmosis/pull/1308) Make panics inside of epochs no longer chain halt by default.
-* [#1286](https://github.com/osmosis-labs/osmosis/pull/1286) Fix release build scripts.
-* [#1203](https://github.com/osmosis-labs/osmosis/pull/1203) cleanup Makefile and ci workflows
-* [#1177](https://github.com/osmosis-labs/osmosis/pull/1177) upgrade to go 1.18
-* [#1193](https://github.com/osmosis-labs/osmosis/pull/1193) Setup e2e tests on a single chain; add balances query test
-* [#1095](https://github.com/osmosis-labs/osmosis/pull/1095) Fix authz being unable to use lockup & superfluid types.
-* [#1105](https://github.com/osmosis-labs/osmosis/pull/1105) Add GitHub Actions to automatically push the osmosis Docker image
-* [#1114](https://github.com/osmosis-labs/osmosis/pull/1114) Improve CI: remove duplicate runs of test worflow
-* [#1127](https://github.com/osmosis-labs/osmosis/pull/1127) Stricter Linting:  bump golangci-lint version and enable additional linters.
-* [#1184](https://github.com/osmosis-labs/osmosis/pull/1184) Fix endtime event output on BeginUnlocking
+* [#1379](https://github.com/PaddyMc/osmosispull/1379) Introduce `Upgrade` and `Fork` structs, to simplify upgrade logic.
+* [#1363](https://github.com/PaddyMc/osmosispull/1363) Switch e2e test setup to create genesis and configs via Dockertest
+* [#1335](https://github.com/PaddyMc/osmosispull/1335) Add utility for deriving total orderings from partial orderings.
+* [#1308](https://github.com/PaddyMc/osmosispull/1308) Make panics inside of epochs no longer chain halt by default.
+* [#1286](https://github.com/PaddyMc/osmosispull/1286) Fix release build scripts.
+* [#1203](https://github.com/PaddyMc/osmosispull/1203) cleanup Makefile and ci workflows
+* [#1177](https://github.com/PaddyMc/osmosispull/1177) upgrade to go 1.18
+* [#1193](https://github.com/PaddyMc/osmosispull/1193) Setup e2e tests on a single chain; add balances query test
+* [#1095](https://github.com/PaddyMc/osmosispull/1095) Fix authz being unable to use lockup & superfluid types.
+* [#1105](https://github.com/PaddyMc/osmosispull/1105) Add GitHub Actions to automatically push the osmosis Docker image
+* [#1114](https://github.com/PaddyMc/osmosispull/1114) Improve CI: remove duplicate runs of test worflow
+* [#1127](https://github.com/PaddyMc/osmosispull/1127) Stricter Linting:  bump golangci-lint version and enable additional linters.
+* [#1184](https://github.com/PaddyMc/osmosispull/1184) Fix endtime event output on BeginUnlocking
 
-## [v7.1.0](https://github.com/osmosis-labs/osmosis/releases/tag/v7.1.0)
+## [v7.1.0](https://github.com/PaddyMc/osmosisreleases/tag/v7.1.0)
 
 ### Minor improvements & Bug Fixes
 
-* [#1052](https://github.com/osmosis-labs/osmosis/pull/1052) Eugen/cherry pick superfluid test scaffolding updates
-* [#1070](https://github.com/osmosis-labs/osmosis/pull/1070) Test improvisation for Superfluid
-* [#1084](https://github.com/osmosis-labs/osmosis/pull/1084) Superfluid Misc: Improve grpc_query
-* [#1081](https://github.com/osmosis-labs/osmosis/pull/1081) Genesis upgrade and add invariant cherry pick
-* [#1088](https://github.com/osmosis-labs/osmosis/pull/1088) Genesis import export check for superfluid
-* [#1101](https://github.com/osmosis-labs/osmosis/pull/1101) Minor PR adding some code comments
-* [#1154](https://github.com/osmosis-labs/osmosis/pull/1154) Database stability improvements
+* [#1052](https://github.com/PaddyMc/osmosispull/1052) Eugen/cherry pick superfluid test scaffolding updates
+* [#1070](https://github.com/PaddyMc/osmosispull/1070) Test improvisation for Superfluid
+* [#1084](https://github.com/PaddyMc/osmosispull/1084) Superfluid Misc: Improve grpc_query
+* [#1081](https://github.com/PaddyMc/osmosispull/1081) Genesis upgrade and add invariant cherry pick
+* [#1088](https://github.com/PaddyMc/osmosispull/1088) Genesis import export check for superfluid
+* [#1101](https://github.com/PaddyMc/osmosispull/1101) Minor PR adding some code comments
+* [#1154](https://github.com/PaddyMc/osmosispull/1154) Database stability improvements
 
 ### SDK fork updates
 
@@ -141,12 +141,12 @@ Every node should upgrade their software version to v8.0.0 before the upgrade bl
 * [iavl-36](https://github.com/osmosis-labs/iavl/pull/36) fix data race related to VersionExists
 * [iavl-37](https://github.com/osmosis-labs/iavl/pull/36) hardcode fast node cache size to 100k
 
-## [v7.0.4](https://github.com/osmosis-labs/osmosis/releases/tag/v7.0.4)
+## [v7.0.4](https://github.com/PaddyMc/osmosisreleases/tag/v7.0.4)
 
 ### Minor improvements & Bug Fixes
 
-* [#1061](https://github.com/osmosis-labs/osmosis/pull/1061) upgrade iavl to v0.17.3-osmo-v5 with concurrent map write fix
-* [#1071](https://github.com/osmosis-labs/osmosis/pull/1071) improve Dockerfile
+* [#1061](https://github.com/PaddyMc/osmosispull/1061) upgrade iavl to v0.17.3-osmo-v5 with concurrent map write fix
+* [#1071](https://github.com/PaddyMc/osmosispull/1071) improve Dockerfile
 
 ### SDK fork updates
 
@@ -156,15 +156,15 @@ Every node should upgrade their software version to v8.0.0 before the upgrade bl
 
 * [iavl-34](https://github.com/osmosis-labs/iavl/pull/34) fix concurrent map panic when querying and committing
 
-## [v7.0.3](https://github.com/osmosis-labs/osmosis/releases/tag/v7.0.3)
+## [v7.0.3](https://github.com/PaddyMc/osmosisreleases/tag/v7.0.3)
 
 ### Minor improvements & Bug Fixes
 
-* [#1022](https://github.com/osmosis-labs/osmosis/pull/1022) upgrade iavl to v0.17.3-osmo-v4 - fix state export at an old height
-* [#988](https://github.com/osmosis-labs/osmosis/pull/988) Make `SuperfluidUndelegationsByDelegator` query also return synthetic locks
-* [#984](https://github.com/osmosis-labs/osmosis/pull/984) Add wasm support to Dockerfile
+* [#1022](https://github.com/PaddyMc/osmosispull/1022) upgrade iavl to v0.17.3-osmo-v4 - fix state export at an old height
+* [#988](https://github.com/PaddyMc/osmosispull/988) Make `SuperfluidUndelegationsByDelegator` query also return synthetic locks
+* [#984](https://github.com/PaddyMc/osmosispull/984) Add wasm support to Dockerfile
 
-## [v7.0.2 - Carbon](https://github.com/osmosis-labs/osmosis/releases/tag/v7.0.2)
+## [v7.0.2 - Carbon](https://github.com/PaddyMc/osmosisreleases/tag/v7.0.2)
 
 This release fixes an instance of undefined behaviour present in v7.0.0.
 Parts of the code use a function called [`ApplyFuncIfNoErr`]() whose purpose is to catch errors, and if found undo state updates during its execution.
@@ -172,7 +172,7 @@ It is intended to also catch panics and undo the problematic code's execution.
 Right now a panic in this code block would halt the node, as it would not know how to proceed.
 (But no state change would be committed)
 
-## [v7.0.0 - Carbon](https://github.com/osmosis-labs/osmosis/releases/tag/v7.0.0)
+## [v7.0.0 - Carbon](https://github.com/PaddyMc/osmosisreleases/tag/v7.0.0)
 
 The Osmosis Carbon Release! The changes are primarily
 
@@ -184,35 +184,35 @@ The large features include:
 * Local mempool filters to charge higher gas for arbitrage txs
 * Allow partial unlocking of non-superfluid'd locks
 
-Upgrade instructions for node operators can be found [here](https://github.com/osmosis-labs/osmosis/blob/main/networks/osmosis-1/upgrades/v7/guide.md)
+Upgrade instructions for node operators can be found [here](https://github.com/PaddyMc/osmosisblob/main/networks/osmosis-1/upgrades/v7/guide.md)
 
 The v7 release introduces Superfluid Staking! This allows governance-approved LP shares to be staked to help secure the network.
 
 ### Features
 
 * {Across many PRs} Add superfluid staking
-* [#893](https://github.com/osmosis-labs/osmosis/pull/893/) Allow (non-superfluid'd) locks to be partially unlocked.
-* [#828](https://github.com/osmosis-labs/osmosis/pull/828) Move docs to their own repository, <https://github.com/osmosis-labs/docs>
-* [#804](https://github.com/osmosis-labs/osmosis/pull/804/) Make the Osmosis repo use proper golang module versioning in self-package imports. (Enables other go projects to easily import Osmosis tags)
-* [#782](https://github.com/osmosis-labs/osmosis/pull/782) Upgrade to cosmos SDK v0.45.0
-* [#777](https://github.com/osmosis-labs/osmosis/pull/777) Add framework for mempool filters for charging different gas rates, add mempool filter for higher gas txs.
-* [#772](https://github.com/osmosis-labs/osmosis/pull/772) Fix SDK bug where incorrect sequence number txs wouldn't get removed from blocks.
-* [#769](https://github.com/osmosis-labs/osmosis/pull/769/) Add governance permissioned cosmwasm module
-* [#680](https://github.com/osmosis-labs/osmosis/pull/680/),[#697](https://github.com/osmosis-labs/osmosis/pull/697/) Change app.go file structure to mitigate risk of keeper reference vs keeper struct bugs. (What caused Osmosis v5 -> v6)
+* [#893](https://github.com/PaddyMc/osmosispull/893/) Allow (non-superfluid'd) locks to be partially unlocked.
+* [#828](https://github.com/PaddyMc/osmosispull/828) Move docs to their own repository, <https://github.com/osmosis-labs/docs>
+* [#804](https://github.com/PaddyMc/osmosispull/804/) Make the Osmosis repo use proper golang module versioning in self-package imports. (Enables other go projects to easily import Osmosis tags)
+* [#782](https://github.com/PaddyMc/osmosispull/782) Upgrade to cosmos SDK v0.45.0
+* [#777](https://github.com/PaddyMc/osmosispull/777) Add framework for mempool filters for charging different gas rates, add mempool filter for higher gas txs.
+* [#772](https://github.com/PaddyMc/osmosispull/772) Fix SDK bug where incorrect sequence number txs wouldn't get removed from blocks.
+* [#769](https://github.com/PaddyMc/osmosispull/769/) Add governance permissioned cosmwasm module
+* [#680](https://github.com/PaddyMc/osmosispull/680/),[#697](https://github.com/PaddyMc/osmosispull/697/) Change app.go file structure to mitigate risk of keeper reference vs keeper struct bugs. (What caused Osmosis v5 -> v6)
 
 ### Minor improvements & Bug Fixes
 
-* [#924](https://github.com/osmosis-labs/osmosis/pull/923) Fix long standing problems with total supply query over-reporting the number of osmo.
-* [#872](https://github.com/osmosis-labs/osmosis/pull/872) Add a helper for BeginBlock/EndBlock code to have code segments that atomically revert state if any part errors.
-* [#869](https://github.com/osmosis-labs/osmosis/pull/869) Update Dockerfile to use distroless base image.
-* [#855](https://github.com/osmosis-labs/osmosis/pull/855) Ensure gauges can only be created for assets that exist on chain.
-* [#766](https://github.com/osmosis-labs/osmosis/pull/766) Consolidate code between InitGenesis and CreateGauge
-* [#763](https://github.com/osmosis-labs/osmosis/pull/763) Add rocksDB options to Makefile.
-* [#740](https://github.com/osmosis-labs/osmosis/pull/740) Simplify AMM swap math / file structure.
-* [#731](https://github.com/osmosis-labs/osmosis/pull/731) Add UpdateFeeToken proposal handler to app.go
-* [#686](https://github.com/osmosis-labs/osmosis/pull/686) Add silence usage to cli to surpress unnecessary help logs
-* [#652](https://github.com/osmosis-labs/osmosis/pull/652) Add logic for deleting a pool
-* [#541](https://github.com/osmosis-labs/osmosis/pull/541) Start generalizing the AMM infrastructure
+* [#924](https://github.com/PaddyMc/osmosispull/923) Fix long standing problems with total supply query over-reporting the number of osmo.
+* [#872](https://github.com/PaddyMc/osmosispull/872) Add a helper for BeginBlock/EndBlock code to have code segments that atomically revert state if any part errors.
+* [#869](https://github.com/PaddyMc/osmosispull/869) Update Dockerfile to use distroless base image.
+* [#855](https://github.com/PaddyMc/osmosispull/855) Ensure gauges can only be created for assets that exist on chain.
+* [#766](https://github.com/PaddyMc/osmosispull/766) Consolidate code between InitGenesis and CreateGauge
+* [#763](https://github.com/PaddyMc/osmosispull/763) Add rocksDB options to Makefile.
+* [#740](https://github.com/PaddyMc/osmosispull/740) Simplify AMM swap math / file structure.
+* [#731](https://github.com/PaddyMc/osmosispull/731) Add UpdateFeeToken proposal handler to app.go
+* [#686](https://github.com/PaddyMc/osmosispull/686) Add silence usage to cli to surpress unnecessary help logs
+* [#652](https://github.com/PaddyMc/osmosispull/652) Add logic for deleting a pool
+* [#541](https://github.com/PaddyMc/osmosispull/541) Start generalizing the AMM infrastructure
 
 ### SDK fork updates
 
@@ -225,11 +225,11 @@ The v7 release introduces Superfluid Staking! This allows governance-approved LP
 
 * [wasmd-v.022.0-osmo-v7.2](https://github.com/osmosis-labs/wasmd/releases/tag/v0.22.0-osmo-v7.2) Upgrade SDK and IAVL dependencies to use fast storage
 
-## [v6.4.0](https://github.com/osmosis-labs/osmosis/releases/tag/v6.4.0)
+## [v6.4.0](https://github.com/PaddyMc/osmosisreleases/tag/v6.4.0)
 
 ### Minor improvements & Bug Fixes
 
--[#907](https://github.com/osmosis-labs/osmosis/pull/907) Upgrade IAVL and SDK with RAM improvements and bug fixes for v6.4.0
+-[#907](https://github.com/PaddyMc/osmosispull/907) Upgrade IAVL and SDK with RAM improvements and bug fixes for v6.4.0
 
 ### SDK fork updates
 
@@ -239,30 +239,30 @@ The v7 release introduces Superfluid Staking! This allows governance-approved LP
 
 * [iavl-19](https://github.com/osmosis-labs/iavl/pull/19) force GC, no cache during migration, auto heap profile
 
-## [v6.3.1](https://github.com/osmosis-labs/osmosis/releases/tag/v6.3.1)
+## [v6.3.1](https://github.com/PaddyMc/osmosisreleases/tag/v6.3.1)
 
-* [#859](https://github.com/osmosis-labs/osmosis/pull/859) CLI, update default durations to be in better units.
+* [#859](https://github.com/PaddyMc/osmosispull/859) CLI, update default durations to be in better units.
 
-* [#Unknown](https://github.com/osmosis-labs/osmosis/commit/3bf63f1d3b7efee503106a008e84129489bdba8d) Switch to SDK branch with vesting by duration
+* [#Unknown](https://github.com/PaddyMc/osmosiscommit/3bf63f1d3b7efee503106a008e84129489bdba8d) Switch to SDK branch with vesting by duration
 
 ## Minor improvements & Bug Fixes
 
-* [#795](https://github.com/osmosis-labs/osmosis/pull/795) Annotate app.go
-* [#791](https://github.com/osmosis-labs/osmosis/pull/791) Change to dependabot config to only upgrade patch version of tendermint
-* [#766](https://github.com/osmosis-labs/osmosis/pull/766) Consolidate code between InitGenesis and CreateGauge
+* [#795](https://github.com/PaddyMc/osmosispull/795) Annotate app.go
+* [#791](https://github.com/PaddyMc/osmosispull/791) Change to dependabot config to only upgrade patch version of tendermint
+* [#766](https://github.com/PaddyMc/osmosispull/766) Consolidate code between InitGenesis and CreateGauge
 
-## [v6.3.0](https://github.com/osmosis-labs/osmosis/releases/tag/v6.3.0)
+## [v6.3.0](https://github.com/PaddyMc/osmosisreleases/tag/v6.3.0)
 
 ## Features
 
-* [#845](https://github.com/osmosis-labs/osmosis/pull/846) Upgrade iavl and sdk with fast storage
-* [#724](https://github.com/osmosis-labs/osmosis/pull/724) Make an ante-handler filter for recognizing High gas txs, and having a min gas price for them.
+* [#845](https://github.com/PaddyMc/osmosispull/846) Upgrade iavl and sdk with fast storage
+* [#724](https://github.com/PaddyMc/osmosispull/724) Make an ante-handler filter for recognizing High gas txs, and having a min gas price for them.
 
 ## Minor improvements & Bug Fixes
 
-* [#795](https://github.com/osmosis-labs/osmosis/pull/795) Annotate app.go
-* [#791](https://github.com/osmosis-labs/osmosis/pull/791) Change to dependabot config to only upgrade patch version of tendermint
-* [#766](https://github.com/osmosis-labs/osmosis/pull/766) Consolidate code between InitGenesis and CreateGauge
+* [#795](https://github.com/PaddyMc/osmosispull/795) Annotate app.go
+* [#791](https://github.com/PaddyMc/osmosispull/791) Change to dependabot config to only upgrade patch version of tendermint
+* [#766](https://github.com/PaddyMc/osmosispull/766) Consolidate code between InitGenesis and CreateGauge
 
 ### SDK fork updates
 
@@ -272,7 +272,7 @@ The v7 release introduces Superfluid Staking! This allows governance-approved LP
 
 * [iavl-5](https://github.com/osmosis-labs/iavl/pull/5) Fast storage optimization for queries and iterations
 
-## [v6.2.0](https://github.com/osmosis-labs/osmosis/releases/tag/v6.2.0)
+## [v6.2.0](https://github.com/PaddyMc/osmosisreleases/tag/v6.2.0)
 
 ### SDK fork updates
 
@@ -280,24 +280,24 @@ The v7 release introduces Superfluid Staking! This allows governance-approved LP
 
 ## Minor improvements & Bug Fixes
 
-* [#765](https://github.com/osmosis-labs/osmosis/pull/765) Fix a bug in `Makefile` regarding the location of localtestnet docker image.
+* [#765](https://github.com/PaddyMc/osmosispull/765) Fix a bug in `Makefile` regarding the location of localtestnet docker image.
 
-## [v6.1.0](https://github.com/osmosis-labs/osmosis/releases/tag/v6.1.0)
+## [v6.1.0](https://github.com/PaddyMc/osmosisreleases/tag/v6.1.0)
 
 ## Features
 
 * Update to Tendermint v0.34.15
 * Increase p2p timeouts to alleviate p2p network breaking at epoch
-* [#741](https://github.com/osmosis-labs/osmosis/pull/741) Allow node operators to set a second min gas price for arbitrage txs.
-* [#623](https://github.com/osmosis-labs/osmosis/pull/623) Use gosec for staticly linting for common non-determinism issues in SDK applications.
+* [#741](https://github.com/PaddyMc/osmosispull/741) Allow node operators to set a second min gas price for arbitrage txs.
+* [#623](https://github.com/PaddyMc/osmosispull/623) Use gosec for staticly linting for common non-determinism issues in SDK applications.
 
 ## Minor improvements & Bug Fixes
 
-* [#722](https://github.com/osmosis-labs/osmosis/issues/722) reuse code for parsing integer slices from string
-* [#704](https://github.com/osmosis-labs/osmosis/pull/704) fix rocksdb
-* [#666](https://github.com/osmosis-labs/osmosis/pull/666) Fix the `--log-level` and `--log-format` commands on `osmosisd start`
-* [#655](https://github.com/osmosis-labs/osmosis/pull/655) Make the default genesis for pool-incentives work by default
-* [97ac2a8](https://github.com/osmosis-labs/osmosis/commit/97ac2a86303fc8966a4c169107e0945775107e67) Fix InitGenesis bug for gauges
+* [#722](https://github.com/PaddyMc/osmosisissues/722) reuse code for parsing integer slices from string
+* [#704](https://github.com/PaddyMc/osmosispull/704) fix rocksdb
+* [#666](https://github.com/PaddyMc/osmosispull/666) Fix the `--log-level` and `--log-format` commands on `osmosisd start`
+* [#655](https://github.com/PaddyMc/osmosispull/655) Make the default genesis for pool-incentives work by default
+* [97ac2a8](https://github.com/PaddyMc/osmosiscommit/97ac2a86303fc8966a4c169107e0945775107e67) Fix InitGenesis bug for gauges
 
 ### SDK fork updates
 
@@ -308,22 +308,22 @@ The v7 release introduces Superfluid Staking! This allows governance-approved LP
 * [sdk-#51](https://github.com/osmosis-labs/cosmos-sdk/pull/51) Add hooks for superfluid staking
 * [sdk-#50](https://github.com/osmosis-labs/cosmos-sdk/pull/50) Make it possible to better permission the bank keeper's minting ability
 
-## [v6.0.0](https://github.com/osmosis-labs/osmosis/releases/tag/v6.0.0)
+## [v6.0.0](https://github.com/PaddyMc/osmosisreleases/tag/v6.0.0)
 
 This upgrade fixes a bug in the v5.0.0 upgrade's app.go, which prevents new IBC channels from being created.
 This binary is compatible with v5.0.0 until block height `2464000`, estimated to be at 4PM UTC Monday December 20th.
 
-* [Patch](https://github.com/osmosis-labs/osmosis/commit/907001b08686ed980e0afa3d97a9c5e2f095b79f#diff-a172cedcae47474b615c54d510a5d84a8dea3032e958587430b413538be3f333) - Revert back to passing in the correct staking keeper into the IBC keeper constructor.
+* [Patch](https://github.com/PaddyMc/osmosiscommit/907001b08686ed980e0afa3d97a9c5e2f095b79f#diff-a172cedcae47474b615c54d510a5d84a8dea3032e958587430b413538be3f333) - Revert back to passing in the correct staking keeper into the IBC keeper constructor.
 * [Height gating change](https://github.com/osmosis-labs/ibc-go/pull/1) - Height gate the change in IBC, to make the v6.0.0 binary compatible until upgrade height.
 
-## [v5.0.0](https://github.com/osmosis-labs/osmosis/releases/tag/v5.0.0) - Boron upgrade
+## [v5.0.0](https://github.com/PaddyMc/osmosisreleases/tag/v5.0.0) - Boron upgrade
 
 The Osmosis Boron release is made!
 
 Notable features include:
 
 * Upgrading from SDK v0.42 to [SDK v0.44](https://github.com/cosmos/cosmos-sdk/blob/v0.43.0/RELEASE_NOTES.md), bringing efficiency improvements, integrations and Rosetta support.
-* Bringing in the new modules [Bech32IBC](https://github.com/osmosis-labs/bech32-ibc/), [Authz](https://github.com/cosmos/cosmos-sdk/tree/master/x/authz/spec), [TxFees](https://github.com/osmosis-labs/osmosis/tree/main/x/txfees)
+* Bringing in the new modules [Bech32IBC](https://github.com/osmosis-labs/bech32-ibc/), [Authz](https://github.com/cosmos/cosmos-sdk/tree/master/x/authz/spec), [TxFees](https://github.com/PaddyMc/osmosistree/main/x/txfees)
 * Upgrading to IBC v2, allowing for improved Ethereum Bridge and CosmWasm support
 * Implementing Osmosis chain governance's [Proposal 32](https://www.mintscan.io/osmosis/proposals/32)
 * Large suite of gas bugs fixed. (Including several that we have not seen on chain)
@@ -331,19 +331,19 @@ Notable features include:
 * Blocking the OFAC banned Ethereum addresses.
 * Several (linear factor) epoch time improvements. (Most were present in v4.2.0)
 
-Upgrade instructions for node operators can be found [here](https://github.com/osmosis-labs/osmosis/blob/v5.x/networks/osmosis-1/upgrades/v5/guide.md)
+Upgrade instructions for node operators can be found [here](https://github.com/PaddyMc/osmosisblob/v5.x/networks/osmosis-1/upgrades/v5/guide.md)
 
 ## Features
 
-* [\#637](https://github.com/osmosis-labs/osmosis/pull/637) Add [Bech32IBC](https://github.com/osmosis-labs/bech32-ibc/)
-* [\#610](https://github.com/osmosis-labs/osmosis/pull/610) Upgrade to Cosmos SDK v0.44.x
+* [\#637](https://github.com/PaddyMc/osmosispull/637) Add [Bech32IBC](https://github.com/osmosis-labs/bech32-ibc/)
+* [\#610](https://github.com/PaddyMc/osmosispull/610) Upgrade to Cosmos SDK v0.44.x
   * Numerous large updates, such as making module accounts be 32 bytes, Rosetta support, etc.
   * Adds & integrates the [Authz module](https://github.com/cosmos/cosmos-sdk/tree/master/x/authz/spec)
     See: [SDK v0.43.0 Release Notes](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.43.0) For more details
-* [\#610](https://github.com/osmosis-labs/osmosis/pull/610) Upgrade to IBC-v2
-* [\#560](https://github.com/osmosis-labs/osmosis/pull/560) Implements Osmosis [prop32](https://www.mintscan.io/osmosis/proposals/32) -- clawing back the final 20% of unclaimed osmo and ion airdrop.
-* [\#394](https://github.com/osmosis-labs/osmosis/pull/394) Allow whitelisted tx fee tokens based on conversion rate to OSMO
-* [Commit db450f0](https://github.com/osmosis-labs/osmosis/commit/db450f0dce8c595211d920f9bca7ed0f3a136e43) Add blocking of OFAC banned Ethereum addresses
+* [\#610](https://github.com/PaddyMc/osmosispull/610) Upgrade to IBC-v2
+* [\#560](https://github.com/PaddyMc/osmosispull/560) Implements Osmosis [prop32](https://www.mintscan.io/osmosis/proposals/32) -- clawing back the final 20% of unclaimed osmo and ion airdrop.
+* [\#394](https://github.com/PaddyMc/osmosispull/394) Allow whitelisted tx fee tokens based on conversion rate to OSMO
+* [Commit db450f0](https://github.com/PaddyMc/osmosiscommit/db450f0dce8c595211d920f9bca7ed0f3a136e43) Add blocking of OFAC banned Ethereum addresses
 
 ## Minor improvements & Bug Fixes
 
@@ -353,17 +353,17 @@ Upgrade instructions for node operators can be found [here](https://github.com/o
   * Add debug info to make it clear whats happening during upgrade
 * (From a series of commits) Fixes to the claims module to only do the reclaim logic once, not every block.
 * (From a series of commits) More logging to the claims module.
-* [\#563](https://github.com/osmosis-labs/osmosis/pull/563) Allow zero-weight pool-incentive distribution records
-* [\#562](https://github.com/osmosis-labs/osmosis/pull/562) Store block height in epochs module for easier debugging
-* [\#544](https://github.com/osmosis-labs/osmosis/pull/544) Update total liquidity tracking to be denom basis, lowering create pool and join pool gas.
-* [\#540](https://github.com/osmosis-labs/osmosis/pull/540) Fix git lfs links
-* [\#517](https://github.com/osmosis-labs/osmosis/pull/517) Linear time improvement for epoch time
-* [\#515](https://github.com/osmosis-labs/osmosis/pull/515) Add debug command for converting secp pubkeys
-* [\#510](https://github.com/osmosis-labs/osmosis/pull/510) Performance improvement for gauge distribution
-* [\#505](https://github.com/osmosis-labs/osmosis/pull/505) Fix bug in incentives epoch distribution events, used to use raw address, now uses bech32 addr
-* [\#464](https://github.com/osmosis-labs/osmosis/pull/464) Increase maximum outbound peers for validator nodes
-* [\#444](https://github.com/osmosis-labs/osmosis/pull/444) Add script for state sync
-* [\#409](https://github.com/osmosis-labs/osmosis/pull/409) Reduce epoch time growth rate for re-locking assets
+* [\#563](https://github.com/PaddyMc/osmosispull/563) Allow zero-weight pool-incentive distribution records
+* [\#562](https://github.com/PaddyMc/osmosispull/562) Store block height in epochs module for easier debugging
+* [\#544](https://github.com/PaddyMc/osmosispull/544) Update total liquidity tracking to be denom basis, lowering create pool and join pool gas.
+* [\#540](https://github.com/PaddyMc/osmosispull/540) Fix git lfs links
+* [\#517](https://github.com/PaddyMc/osmosispull/517) Linear time improvement for epoch time
+* [\#515](https://github.com/PaddyMc/osmosispull/515) Add debug command for converting secp pubkeys
+* [\#510](https://github.com/PaddyMc/osmosispull/510) Performance improvement for gauge distribution
+* [\#505](https://github.com/PaddyMc/osmosispull/505) Fix bug in incentives epoch distribution events, used to use raw address, now uses bech32 addr
+* [\#464](https://github.com/PaddyMc/osmosispull/464) Increase maximum outbound peers for validator nodes
+* [\#444](https://github.com/PaddyMc/osmosispull/444) Add script for state sync
+* [\#409](https://github.com/PaddyMc/osmosispull/409) Reduce epoch time growth rate for re-locking assets
 
 ## [v4.0.0]
 

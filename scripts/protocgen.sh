@@ -51,5 +51,5 @@ buf protoc \
   --doc_opt=./docs/protodoc-markdown.tmpl,proto-docs.md \
   $(find "$(pwd)/proto" -maxdepth 4 -name '*.proto')
 
-cp -r ./github.com/osmosis-labs/osmosis/v*/x/* x/
+cp -r ./github.com/PaddyMc/osmosisv*/x/* x/
 rm -rf ./github.com

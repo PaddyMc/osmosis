@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/osmosis-labs/osmosis/v8/app"
-	"github.com/osmosis-labs/osmosis/v8/x/gamm/pool-models/balancer"
-	balancertypes "github.com/osmosis-labs/osmosis/v8/x/gamm/pool-models/balancer"
-	gammtypes "github.com/osmosis-labs/osmosis/v8/x/gamm/types"
+	"github.com/PaddyMc/osmosis/v8/app"
+	"github.com/PaddyMc/osmosis/v8/x/gamm/pool-models/balancer"
+	balancertypes "github.com/PaddyMc/osmosis/v8/x/gamm/pool-models/balancer"
+	gammtypes "github.com/PaddyMc/osmosis/v8/x/gamm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

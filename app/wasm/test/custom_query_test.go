@@ -15,10 +15,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v8/app"
-	"github.com/osmosis-labs/osmosis/v8/app/wasm"
-	wasmbindings "github.com/osmosis-labs/osmosis/v8/app/wasm/bindings"
-	"github.com/osmosis-labs/osmosis/v8/x/gamm/pool-models/balancer"
+	"github.com/PaddyMc/osmosis/v8/app"
+	"github.com/PaddyMc/osmosis/v8/app/wasm"
+	wasmbindings "github.com/PaddyMc/osmosis/v8/app/wasm/bindings"
+	"github.com/PaddyMc/osmosis/v8/x/gamm/pool-models/balancer"
 )
 
 // we must pay this many uosmo for every pool we create

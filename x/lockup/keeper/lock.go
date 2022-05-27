@@ -10,8 +10,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/osmosis-labs/osmosis/v8/store"
-	"github.com/osmosis-labs/osmosis/v8/x/lockup/types"
+	"github.com/PaddyMc/osmosis/v8/store"
+	"github.com/PaddyMc/osmosis/v8/x/lockup/types"
 )
 
 // TODO: Reorganize functions in this file
@@ -581,13 +581,13 @@ func (k Keeper) BreakAllSyntheticLocks(ctx sdk.Context, lock types.PeriodLock, s
 	}
 
 	// Synth locks have data set in two places, accumulation store & setSyntheticLockAndResetRefs
-	// see that [CreateSyntheticLock](https://github.com/osmosis-labs/osmosis/blob/v7.3.0/x/lockup/keeper/synthetic_lock.go#L105)
+	// see that [CreateSyntheticLock](https://github.com/PaddyMc/osmosisblob/v7.3.0/x/lockup/keeper/synthetic_lock.go#L105)
 	// only has 3 set locations:
 	// - k.setSyntheticLockupObject(ctx, &synthLock)
 	// - k.addSyntheticLockRefs(ctx, *lock, synthLock)
 	// - k.accumulationStore(ctx, synthLock.SynthDenom).Increase(accumulationKey(unlockDuration), coin.Amount)
 	// ALL of which are reverted in the method DeleteSyntheticLock, here:
-	// https://github.com/osmosis-labs/osmosis/blob/v7.3.0/x/lockup/keeper/synthetic_lock.go#L156
+	// https://github.com/PaddyMc/osmosisblob/v7.3.0/x/lockup/keeper/synthetic_lock.go#L156
 	for _, synthLock := range synthLocks {
 		err := k.DeleteSyntheticLockup(ctx, lock.ID, synthLock.SynthDenom)
 		if err != nil {

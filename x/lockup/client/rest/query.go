@@ -8,7 +8,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/osmosis-labs/osmosis/v8/x/lockup/types"
+	"github.com/PaddyMc/osmosis/v8/x/lockup/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	sdk "github.com/cosmos/cosmos-sdk/types"

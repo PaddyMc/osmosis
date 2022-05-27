@@ -20,9 +20,9 @@ import (
 
 	rpchttp "github.com/tendermint/tendermint/rpc/client/http"
 
-	"github.com/osmosis-labs/osmosis/v8/tests/e2e/chain"
-	dockerconfig "github.com/osmosis-labs/osmosis/v8/tests/e2e/docker"
-	"github.com/osmosis-labs/osmosis/v8/tests/e2e/util"
+	"github.com/PaddyMc/osmosis/v8/tests/e2e/chain"
+	dockerconfig "github.com/PaddyMc/osmosis/v8/tests/e2e/docker"
+	"github.com/PaddyMc/osmosis/v8/tests/e2e/util"
 )
 
 type status struct {
@@ -46,7 +46,7 @@ type chainConfig struct {
 }
 
 const (
-	// osmosis version being upgraded to (folder must exist here https://github.com/osmosis-labs/osmosis/tree/main/app/upgrades)
+	// osmosis version being upgraded to (folder must exist here https://github.com/PaddyMc/osmosistree/main/app/upgrades)
 	upgradeVersion = "v9"
 	// estimated number of blocks it takes to submit for a proposal
 	propSubmitBlocks float32 = 10

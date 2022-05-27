@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/osmosis-labs/osmosis/v8/x/txfees/types"
+	"github.com/PaddyMc/osmosis/v8/x/txfees/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

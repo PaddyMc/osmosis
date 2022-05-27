@@ -14,8 +14,8 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/osmosis-labs/osmosis/v8/app"
-	minttypes "github.com/osmosis-labs/osmosis/v8/x/mint/types"
+	"github.com/PaddyMc/osmosis/v8/app"
+	minttypes "github.com/PaddyMc/osmosis/v8/x/mint/types"
 
 	"github.com/cosmos/cosmos-sdk/testutil/network"
 )

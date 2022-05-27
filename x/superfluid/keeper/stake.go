@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/osmosis-labs/osmosis/v8/osmoutils"
-	lockuptypes "github.com/osmosis-labs/osmosis/v8/x/lockup/types"
-	"github.com/osmosis-labs/osmosis/v8/x/superfluid/types"
+	"github.com/PaddyMc/osmosis/v8/osmoutils"
+	lockuptypes "github.com/PaddyMc/osmosis/v8/x/lockup/types"
+	"github.com/PaddyMc/osmosis/v8/x/superfluid/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"

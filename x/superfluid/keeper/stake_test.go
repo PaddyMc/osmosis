@@ -6,10 +6,10 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	lockuptypes "github.com/osmosis-labs/osmosis/v8/x/lockup/types"
-	minttypes "github.com/osmosis-labs/osmosis/v8/x/mint/types"
-	"github.com/osmosis-labs/osmosis/v8/x/superfluid/keeper"
-	"github.com/osmosis-labs/osmosis/v8/x/superfluid/types"
+	lockuptypes "github.com/PaddyMc/osmosis/v8/x/lockup/types"
+	minttypes "github.com/PaddyMc/osmosis/v8/x/mint/types"
+	"github.com/PaddyMc/osmosis/v8/x/superfluid/keeper"
+	"github.com/PaddyMc/osmosis/v8/x/superfluid/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"

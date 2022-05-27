@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/osmosis-labs/osmosis/v8/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v8/x/mint/types"
+	"github.com/PaddyMc/osmosis/v8/app/apptesting"
+	"github.com/PaddyMc/osmosis/v8/x/mint/types"
 )
 
 type MintTestSuite struct {

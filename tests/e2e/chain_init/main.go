@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/osmosis-labs/osmosis/v8/tests/e2e/chain"
+	"github.com/PaddyMc/osmosis/v8/tests/e2e/chain"
 )
 
 func main() {

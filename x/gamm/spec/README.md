@@ -49,7 +49,7 @@ the exit fee, which is set as a param of the pool. The user's share
 tokens burnt as result. Exiting the pool using a single asset is also
 possible.
 
-[Exiting pool](https://github.com/osmosis-labs/osmosis/blob/main/x/gamm/keeper/pool_service.go)
+[Exiting pool](https://github.com/PaddyMc/osmosisblob/main/x/gamm/keeper/pool_service.go)
 
 ### Swap
 
@@ -78,7 +78,7 @@ the following formula:
 
 `(tokenBalanceIn / tokenWeightIn) / (tokenBalanceOut / tokenWeightOut)`
 
-[Spot price](https://github.com/osmosis-labs/osmosis/blob/main/x/gamm/keeper/swap.go)
+[Spot price](https://github.com/PaddyMc/osmosisblob/main/x/gamm/keeper/swap.go)
 
 #### Multi-Hop
 
@@ -86,7 +86,7 @@ All tokens are swapped using a multi-hop mechanism. That is, all swaps
 are routed via the most cost-efficient way, swapping in and out from
 multiple pools in the process.
 
-[Multi-Hop](https://github.com/osmosis-labs/osmosis/blob/main/x/gamm/keeper/multihop.go)
+[Multi-Hop](https://github.com/PaddyMc/osmosisblob/main/x/gamm/keeper/multihop.go)
 
 ## Weights
 
@@ -160,39 +160,39 @@ The `x/gamm` module supports the following message types:
 
 ### MsgCreateBalancerPool
 
-[MsgCreateBalancerPool](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/pool-models/balancer/tx.proto#L16-L26)
+[MsgCreateBalancerPool](https://github.com/PaddyMc/osmosisblob/v7.1.0/proto/osmosis/gamm/pool-models/balancer/tx.proto#L16-L26)
 
 ### MsgJoinPool
 
-[MsgJoinPool](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L27-L39)
+[MsgJoinPool](https://github.com/PaddyMc/osmosisblob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L27-L39)
 
 ### MsgExitPool
 
-[MsgExitPool](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L44-L57)
+[MsgExitPool](https://github.com/PaddyMc/osmosisblob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L44-L57)
 
 ### MsgSwapExactAmountIn
 
-[MsgSwapExactAmountIn](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L68-L80)
+[MsgSwapExactAmountIn](https://github.com/PaddyMc/osmosisblob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L68-L80)
 
 ### MsgSwapExactAmountOut
 
-[MsgSwapExactAmountOut](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L90-L102)
+[MsgSwapExactAmountOut](https://github.com/PaddyMc/osmosisblob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L90-L102)
 
 ### MsgJoinSwapExternAmountIn
 
-[MsgJoinSwapExternAmountIn](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L107-L119)
+[MsgJoinSwapExternAmountIn](https://github.com/PaddyMc/osmosisblob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L107-L119)
 
 #### MsgJoinSwapShareAmountOut
 
-[MsgJoinSwapShareAmountOut](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L124-L138)
+[MsgJoinSwapShareAmountOut](https://github.com/PaddyMc/osmosisblob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L124-L138)
 
 #### MsgExitSwapShareAmountIn
 
-[MsgExitSwapShareAmountIn](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L143-L158)
+[MsgExitSwapShareAmountIn](https://github.com/PaddyMc/osmosisblob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L143-L158)
 
 #### MsgExitSwapExternAmountOut
 
-[MsgExitSwapExternAmountOut](https://github.com/osmosis-labs/osmosis/blob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L163-L175)
+[MsgExitSwapExternAmountOut](https://github.com/PaddyMc/osmosisblob/v7.1.0/proto/osmosis/gamm/v1beta1/tx.proto#L163-L175)
 
 ## Transactions
 

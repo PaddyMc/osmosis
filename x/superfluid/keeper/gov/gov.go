@@ -3,8 +3,8 @@ package gov
 import (
 	"fmt"
 
-	"github.com/osmosis-labs/osmosis/v8/x/superfluid/keeper"
-	"github.com/osmosis-labs/osmosis/v8/x/superfluid/types"
+	"github.com/PaddyMc/osmosis/v8/x/superfluid/keeper"
+	"github.com/PaddyMc/osmosis/v8/x/superfluid/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

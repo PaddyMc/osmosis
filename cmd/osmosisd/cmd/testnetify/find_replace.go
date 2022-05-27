@@ -3,7 +3,7 @@ package testnetify
 import (
 	"bytes"
 
-	"github.com/osmosis-labs/osmosis/v8/app"
+	"github.com/PaddyMc/osmosis/v8/app"
 )
 
 func replaceConsAddrHex(genesis app.GenesisState, fromAddr string, replaceAddr string) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/osmosis-labs/osmosis/v8/x/tokenfactory/types"
+	"github.com/PaddyMc/osmosis/v8/x/tokenfactory/types"
 
 	"github.com/stretchr/testify/require"
 
@@ -13,8 +13,8 @@ import (
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v8/app"
-	wasmbindings "github.com/osmosis-labs/osmosis/v8/app/wasm/bindings"
+	"github.com/PaddyMc/osmosis/v8/app"
+	wasmbindings "github.com/PaddyMc/osmosis/v8/app/wasm/bindings"
 )
 
 func TestCreateDenomMsg(t *testing.T) {
@@ -284,7 +284,7 @@ func TestSwapMsg(t *testing.T) {
 		},
 
 		// FIXME: this panics in GAMM module !?! hits a known TODO
-		// https://github.com/osmosis-labs/osmosis/blob/a380ab2fcd39fb94c2b10411e07daf664911257a/osmomath/math.go#L47-L51
+		// https://github.com/PaddyMc/osmosisblob/a380ab2fcd39fb94c2b10411e07daf664911257a/osmomath/math.go#L47-L51
 		//"exact out: panics if too much swapped": {
 		//	msg: func(state BaseState) *wasmbindings.SwapMsg {
 		//		return &wasmbindings.SwapMsg{
@@ -393,7 +393,7 @@ func TestSwapMsg(t *testing.T) {
 			},
 		},
 		// FIXME: this panics in GAMM module !?! hits a known TODO
-		// https://github.com/osmosis-labs/osmosis/blob/a380ab2fcd39fb94c2b10411e07daf664911257a/osmomath/math.go#L47-L51
+		// https://github.com/PaddyMc/osmosisblob/a380ab2fcd39fb94c2b10411e07daf664911257a/osmomath/math.go#L47-L51
 		// {
 		// 	name: "exact out: panics on math power stuff",
 		// 	msg: func(state BaseState) *wasmbindings.SwapMsg {

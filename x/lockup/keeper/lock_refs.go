@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/osmosis-labs/osmosis/v8/x/lockup/types"
+	"github.com/PaddyMc/osmosis/v8/x/lockup/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

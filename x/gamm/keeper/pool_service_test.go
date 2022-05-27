@@ -6,9 +6,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v8/x/gamm/pool-models/balancer"
-	balancertypes "github.com/osmosis-labs/osmosis/v8/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v8/x/gamm/types"
+	"github.com/PaddyMc/osmosis/v8/x/gamm/pool-models/balancer"
+	balancertypes "github.com/PaddyMc/osmosis/v8/x/gamm/pool-models/balancer"
+	"github.com/PaddyMc/osmosis/v8/x/gamm/types"
 )
 
 var (
@@ -508,7 +508,7 @@ func (suite *KeeperTestSuite) TestJoinSwapExactAmountInConsistency() {
 		// TODO: Uncomment or remove this following test case once the referenced
 		// issue is resolved.
 		//
-		// Ref: https://github.com/osmosis-labs/osmosis/issues/1196
+		// Ref: https://github.com/PaddyMc/osmosisissues/1196
 		// {
 		// 	name:              "single coin with positive swap fee and zero exit fee",
 		// 	poolSwapFee:       sdk.NewDecWithPrec(1, 2),

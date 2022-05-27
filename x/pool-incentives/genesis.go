@@ -3,8 +3,8 @@ package pool_incentives
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v8/x/pool-incentives/keeper"
-	"github.com/osmosis-labs/osmosis/v8/x/pool-incentives/types"
+	"github.com/PaddyMc/osmosis/v8/x/pool-incentives/keeper"
+	"github.com/PaddyMc/osmosis/v8/x/pool-incentives/types"
 )
 
 func InitGenesis(ctx sdk.Context, k keeper.Keeper, genState *types.GenesisState) {

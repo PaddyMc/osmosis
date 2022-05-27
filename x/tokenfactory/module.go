@@ -19,9 +19,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/osmosis-labs/osmosis/v8/x/tokenfactory/client/cli"
-	"github.com/osmosis-labs/osmosis/v8/x/tokenfactory/keeper"
-	"github.com/osmosis-labs/osmosis/v8/x/tokenfactory/types"
+	"github.com/PaddyMc/osmosis/v8/x/tokenfactory/client/cli"
+	"github.com/PaddyMc/osmosis/v8/x/tokenfactory/keeper"
+	"github.com/PaddyMc/osmosis/v8/x/tokenfactory/types"
 )
 
 var (

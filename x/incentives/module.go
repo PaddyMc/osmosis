@@ -19,11 +19,11 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/osmosis-labs/osmosis/v8/x/incentives/client/cli"
-	"github.com/osmosis-labs/osmosis/v8/x/incentives/keeper"
-	"github.com/osmosis-labs/osmosis/v8/x/incentives/simulation"
-	"github.com/osmosis-labs/osmosis/v8/x/incentives/types"
-	"github.com/osmosis-labs/osmosis/v8/x/mint/client/rest"
+	"github.com/PaddyMc/osmosis/v8/x/incentives/client/cli"
+	"github.com/PaddyMc/osmosis/v8/x/incentives/keeper"
+	"github.com/PaddyMc/osmosis/v8/x/incentives/simulation"
+	"github.com/PaddyMc/osmosis/v8/x/incentives/types"
+	"github.com/PaddyMc/osmosis/v8/x/mint/client/rest"
 )
 
 var (

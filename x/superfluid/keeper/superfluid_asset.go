@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	"github.com/osmosis-labs/osmosis/v8/osmoutils"
-	"github.com/osmosis-labs/osmosis/v8/x/superfluid/types"
+	"github.com/PaddyMc/osmosis/v8/osmoutils"
+	"github.com/PaddyMc/osmosis/v8/x/superfluid/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
@@ -14,7 +14,7 @@ import (
 //
 // It should eventually begin unwinding all of the synthetic lockups for that asset
 // and queue them for deletion.
-// See https://github.com/osmosis-labs/osmosis/issues/864
+// See https://github.com/PaddyMc/osmosisissues/864
 func (k Keeper) BeginUnwindSuperfluidAsset(ctx sdk.Context, epochNum int64, asset types.SuperfluidAsset) {
 	// Right now set the TWAP to 0, and delete the asset.
 	k.SetOsmoEquivalentMultiplier(ctx, epochNum, asset.Denom, sdk.ZeroDec())

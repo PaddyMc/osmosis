@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	epochstypes "github.com/osmosis-labs/osmosis/v8/x/epochs/types"
-	"github.com/osmosis-labs/osmosis/v8/x/superfluid/types"
+	epochstypes "github.com/PaddyMc/osmosis/v8/x/epochs/types"
+	"github.com/PaddyMc/osmosis/v8/x/superfluid/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

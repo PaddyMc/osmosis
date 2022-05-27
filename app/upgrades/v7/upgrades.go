@@ -7,10 +7,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/osmosis-labs/osmosis/v8/app/keepers"
-	lockupkeeper "github.com/osmosis-labs/osmosis/v8/x/lockup/keeper"
-	mintkeeper "github.com/osmosis-labs/osmosis/v8/x/mint/keeper"
-	superfluidtypes "github.com/osmosis-labs/osmosis/v8/x/superfluid/types"
+	"github.com/PaddyMc/osmosis/v8/app/keepers"
+	lockupkeeper "github.com/PaddyMc/osmosis/v8/x/lockup/keeper"
+	mintkeeper "github.com/PaddyMc/osmosis/v8/x/mint/keeper"
+	superfluidtypes "github.com/PaddyMc/osmosis/v8/x/superfluid/types"
 )
 
 func CreateUpgradeHandler(

@@ -9,7 +9,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v8/x/txfees/types"
+	"github.com/PaddyMc/osmosis/v8/x/txfees/types"
 )
 
 type Keeper struct {

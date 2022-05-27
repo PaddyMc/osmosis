@@ -4,8 +4,8 @@ import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v8/x/gamm/keeper"
-	"github.com/osmosis-labs/osmosis/v8/x/gamm/types"
+	"github.com/PaddyMc/osmosis/v8/x/gamm/keeper"
+	"github.com/PaddyMc/osmosis/v8/x/gamm/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

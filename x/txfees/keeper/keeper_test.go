@@ -8,10 +8,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	osmosisapp "github.com/osmosis-labs/osmosis/v8/app"
+	osmosisapp "github.com/PaddyMc/osmosis/v8/app"
 
-	"github.com/osmosis-labs/osmosis/v8/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v8/x/txfees/types"
+	"github.com/PaddyMc/osmosis/v8/app/apptesting"
+	"github.com/PaddyMc/osmosis/v8/x/txfees/types"
 )
 
 type KeeperTestSuite struct {
